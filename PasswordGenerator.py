@@ -21,7 +21,7 @@ def password_generator (numberofletters, numberofnumbers, numberofpunctuation):
     print(''.join(str(i) for i in new_pw))
 
 def create_a_random_pw ():
-    print('There we go! I\ll ask you something about the preferences of your new password. \nBear in mind that the sum of the characters constitutes also the total lenght of your password!')
+    print('There we go! I\'ll ask you something about the preferences of your new password. \nBear in mind that the sum of the characters constitutes also the total lenght of your password!')
 
     while True:
         try:
